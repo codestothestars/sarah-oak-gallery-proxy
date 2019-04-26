@@ -57,3 +57,6 @@ This project uses the following branching rules.
 * Use a named feature branch for each feature in development. This is where all main development should occur.
 * `release-*` branches are created from `develop` to prepare the next release. Perform final testing and version checking here, then merge into `master` to trigger a production deployment and back into `develop` to update development.
 * `hotfix-*` branches are created from `master` to fix immediate production issues. Merge back into `master` to deploy to production and into `develop` to update the development version.
+
+### IDE
+The application can be developed in any IDE in conjunction with the dependencies and commands listed above. [Visual Studio Code](https://code.visualstudio.com) is a light, fully-featured IDE that integrates well with Node.js, but is not required.
