@@ -74,3 +74,5 @@ To deploy the official version of the proxy, merge the production-ready code int
 
 ### General
 To deploy the proxy, upload the contents of this repository to your Azure Functions application on Azure using your preferred method.
+
+This repository provides a shell script [create-function-app.sh](./create-function-app.sh) that you may run to create an Azure Functions application, specifying `$functionApp` for the function app name and `$storageAccount` for the storage account name. It configures [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) for `http://localhost:4200` and `http://sarahoak.com`.
