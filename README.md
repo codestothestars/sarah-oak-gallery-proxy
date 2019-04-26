@@ -50,6 +50,13 @@ az storage account show-connection-string \
 npx func settings add AzureWebJobsStorage "$connectionString"
 ```
 
+### Run
+After setting up your development environment, start a local server to run the application.
+
+```shell
+npm start
+```
+
 ### Branching Model
 This project uses the following branching rules.
 * `master` contains the current production state. Merge changes into `master` to trigger a production deployment. Development does not occur here.
