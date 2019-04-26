@@ -7,3 +7,4 @@ This proxy is implemented as an [Azure Function](https://azure.microsoft.com/en-
 
 ## Development
 ### Dependencies
+* [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) (needed for local development environment setup)
