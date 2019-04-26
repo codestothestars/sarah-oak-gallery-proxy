@@ -16,3 +16,36 @@ Once you've installed the above dependencies and cloned this repository, install
 ```shell
 npm install
 ```
+
+### Environment Setup
+Even for local development, Azure Functions expect access to a storage account. Run the following shell commands to create a resource group and storage account...
+```shell
+resourceGroup=sarah-oak-gallery-proxy
+
+az group create --name $resourceGroup
+
+az storage account create \
+    --https-only \
+    --kind StorageV2 \
+    --name $storageAccountName \
+    --resource-group $resourceGroup \
+    --sku Standard_LRS
+```
+
+...where `$storageAccountName` is a unique name for your storage account.
+
+Retrieve the connection string for the storage account...
+
+```shell
+az storage account show-connection-string \
+    --name $storageAccountName \
+    --output tsv \
+    --query connectionString \
+    --resource-group $resourceGroup
+```
+
+...then add it to your local settings.
+
+```shell
+npx func settings add AzureWebJobsStorage "$connectionString"
+```
