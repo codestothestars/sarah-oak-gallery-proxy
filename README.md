@@ -60,3 +60,10 @@ This project uses the following branching rules.
 
 ### IDE
 The application can be developed in any IDE in conjunction with the dependencies and commands listed above. [Visual Studio Code](https://code.visualstudio.com) is a light, fully-featured IDE that integrates well with Node.js, but is not required.
+
+## Deployment
+### Official
+To deploy the official version of the proxy, merge the production-ready code into the `master` branch to trigger the production deployment pipeline at Azure DevOps.
+
+### General
+To deploy the proxy, upload the contents of this repository to your Azure Functions application on Azure using your preferred method.
