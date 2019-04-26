@@ -1,0 +1,27 @@
+{
+  "author": "Ariel Oak",
+  "bugs": {
+    "url": "https://github.com/codestothestars/sarah-oak-gallery-proxy/issues"
+  },
+  "description": "The web proxy for Sarah Oak's gallery server.",
+  "devDependencies": {},
+  "homepage": "https://github.com/codestothestars/sarah-oak-gallery-proxy",
+  "keywords": [
+    "gallery",
+    "oak",
+    "piwigo",
+    "proxy",
+    "sarah"
+  ],
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "sarah-oak-gallery-proxy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codestothestars/sarah-oak-gallery-proxy.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
