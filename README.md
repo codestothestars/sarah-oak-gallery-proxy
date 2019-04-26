@@ -9,3 +9,10 @@ This proxy is implemented as an [Azure Function](https://azure.microsoft.com/en-
 ### Dependencies
 * [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) (needed for local development environment setup)
 * [Node.js](https://nodejs.org) 10.15 ([nvm](https://github.com/creationix/nvm) is recommended)
+
+### Install
+Once you've installed the above dependencies and cloned this repository, install NPM dependencies.
+
+```shell
+npm install
+```
