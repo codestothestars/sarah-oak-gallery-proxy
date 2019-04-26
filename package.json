@@ -4,7 +4,9 @@
     "url": "https://github.com/codestothestars/sarah-oak-gallery-proxy/issues"
   },
   "description": "The web proxy for Sarah Oak's gallery server.",
-  "devDependencies": {},
+  "devDependencies": {
+    "azure-functions-core-tools": "2.6.1048"
+  },
   "homepage": "https://github.com/codestothestars/sarah-oak-gallery-proxy",
   "keywords": [
     "gallery",
