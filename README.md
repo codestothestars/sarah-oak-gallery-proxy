@@ -6,3 +6,4 @@ Enables communication with the API at [sarahoak.piwigo.com](https://sarahoak.piw
 This proxy is implemented as an [Azure Function](https://azure.microsoft.com/en-us/services/functions).
 
 ## Development
+### Dependencies
