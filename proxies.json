@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json.schemastore.org/proxies",
+    "proxies": {
+        "proxy": {
+            "backendUri": "https://sarahoak.piwigo.com/{path}",
+            "matchCondition": {
+                "route": "/{*path}"
+            }
+        }
+    }
+}

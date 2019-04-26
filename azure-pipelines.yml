@@ -1,0 +1,11 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'Ubuntu-16.04'
+
+steps:
+  - task: PublishPipelineArtifact@0
+    inputs:
+      artifactName: sarah-oak-gallery-proxy
+      targetPath: .
